@@ -62,7 +62,7 @@ const Contact = () => {
       <div className="page-container">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="section-title animate-on-scroll opacity-0">Get in Touch</h2>
-          <p className="section-subtitle animate-on-scroll opacity-0">Have a project in mind? Let's work together</p>
+          <p className="section-subtitle animate-on-scroll opacity-0">Have a gig to offer? Let's work together</p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -83,8 +83,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <a href="mailto:hello@example.com" className="font-medium hover:underline">
-                    hello@example.com
+                  <a href="mailto:vamsiteja191017787@gmail.com" className="font-medium hover:underline">
+                    vamsiteja191017787.com
                   </a>
                 </div>
               </div>
@@ -98,13 +98,13 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Social</p>
                   <div className="flex space-x-4">
-                    <a href="#" className="hover:text-black/80 transition-colors">
+                    <a href="https://www.linkedin.com/in/vamsiteja0163/" className="hover:text-black/80 transition-colors">
                       LinkedIn
                     </a>
-                    <a href="#" className="hover:text-black/80 transition-colors">
+                    <a href="https://github.com/vamsi0163" className="hover:text-black/80 transition-colors">
                       GitHub
                     </a>
-                    <a href="#" className="hover:text-black/80 transition-colors">
+                    <a href="https://x.com/vamsiTe75218964/" className="hover:text-black/80 transition-colors">
                       Twitter
                     </a>
                   </div>
@@ -153,7 +153,7 @@ const Contact = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 className="w-full px-4 py-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-black/5 transition-all"
-                placeholder="Tell me about your project..."
+                placeholder="Write your requirements here..."
                 rows={4}
                 required
               />
