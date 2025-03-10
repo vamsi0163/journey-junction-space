@@ -9,7 +9,10 @@ const About = () => {
       (entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('animate-fade-up');
+            // Add the animation class without removing it when scrolling away
+            if (!entry.target.classList.contains('animate-fade-up')) {
+              entry.target.classList.add('animate-fade-up');
+            }
           }
         });
       },
@@ -18,6 +21,8 @@ const About = () => {
     
     const childElements = sectionRef.current?.querySelectorAll('.animate-on-scroll');
     childElements?.forEach(el => {
+      // Remove opacity-0 to prevent elements from disappearing
+      el.classList.remove('opacity-0');
       observer.observe(el);
     });
     
