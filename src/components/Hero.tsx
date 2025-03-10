@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="page-container pt-20">
         <div className="max-w-3xl mx-auto text-center">
           <span className="inline-block py-1 px-3 rounded-full bg-secondary text-sm mb-8 animate-fade-in">
-            Full Stack Developer
+            Self proclaiming Engineer
           </span>
           
           <h1 

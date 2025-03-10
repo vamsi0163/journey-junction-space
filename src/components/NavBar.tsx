@@ -32,7 +32,7 @@ const NavBar = () => {
             className="text-xl font-medium tracking-tight cursor-pointer"
           >
             <span className="sr-only">Home</span>
-            YourName.
+            SVVTR.
           </Link>
           
           {/* Mobile menu button */}
@@ -48,9 +48,9 @@ const NavBar = () => {
           
           {/* Desktop navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="text-sm opacity-80 hover:opacity-100 transition-opacity">About</a>
-            <a href="#projects" className="text-sm opacity-80 hover:opacity-100 transition-opacity">Projects</a>
-            <a href="#skills" className="text-sm opacity-80 hover:opacity-100 transition-opacity">Skills</a>
+            <a href="#about" className="text-sm opacity-100 hover:opacity-50 transition-opacity">About</a>
+            <a href="#projects" className="text-sm opacity-80 hover:opacity-60 transition-opacity">Projects</a>
+            <a href="#skills" className="text-sm opacity-80 hover:opacity-70 transition-opacity">Skills</a>
             <a href="#contact" className="text-sm button-primary">Contact</a>
           </div>
           
