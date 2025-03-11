@@ -58,7 +58,7 @@ const About = () => {
             <div className="aspect-square bg-white rounded-2xl overflow-hidden shadow-lg animate-on-scroll opacity-0">
               <div className="absolute inset-0 bg-gradient-to-br from-transparent to-black/5"></div>
               <img 
-                src="/placeholder.svg" 
+                src="/headshot.jpg" 
                 alt="Professional headshot" 
                 className="w-full h-full object-cover"
                 loading="lazy"

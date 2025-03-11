@@ -32,7 +32,7 @@ const NavBar = () => {
             className="text-xl font-medium tracking-tight cursor-pointer"
           >
             <span className="sr-only">Home</span>
-            SVVTR.
+            SVVTR
           </Link>
           
           {/* Mobile menu button */}
