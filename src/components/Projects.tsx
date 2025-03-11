@@ -13,27 +13,27 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A modern e-commerce solution with cart functionality, payment processing, and user accounts.",
+    title: "Burger Shop Platform",
+    description: "A Personalized Local Burger Shop Platform in Brazil with a user-friendly interface and secure payment gateway.",
     tags: ["MongoDB", "Express", "React", "Node.js", "Stripe"],
-    image: "/placeholder.svg",
-    link: "#"
+    image: "/project1.png",
+    link: "git@github.com:vamsi0163/Burger-shop.git/"
   },
-  {
-    id: 2,
-    title: "Task Management App",
-    description: "An intuitive task management application with drag-and-drop functionality and team collaboration features.",
-    tags: ["React", "Redux", "Node.js", "Socket.io"],
-    image: "/placeholder.svg",
-    link: "#"
-  },
+  // {
+  //   id: 2,
+  //   title: "Azlea Sports-Analytics",
+  //   description: "An intuitive task management application with drag-and-drop functionality and team collaboration features.",
+  //   tags: ["React", "Redux", "Node.js", "Socket.io"],
+  //   image: "/placeholder.svg",
+  //   link: "#"
+  // },
   {
     id: 3,
-    title: "Real Estate Listing Platform",
-    description: "A property marketplace with advanced filtering, map integration, and user messaging.",
-    tags: ["MongoDB", "Express", "React", "Google Maps API"],
-    image: "/placeholder.svg",
-    link: "#"
+    title: "news-exploratory-project",
+    description: " This project is designed to provide users with a dynamic and interactive platform to explore news articles based on categories and search queries.",
+    tags: ["javascript", "vercel"],
+    image: "/project3.png",
+    link: "https://news-exploratory-project.vercel.app/"
   }
 ];
 

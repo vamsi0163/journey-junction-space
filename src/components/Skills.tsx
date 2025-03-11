@@ -8,7 +8,7 @@ interface Skill {
 
 const skillsData: Skill[] = [
   {
-    category: "Frontend",
+    category: "Web dev",
     items: [
       "React.js",
       "Next.js",
@@ -26,9 +26,7 @@ const skillsData: Skill[] = [
       "Express.js",
       "MongoDB",
       "RESTful APIs",
-      "GraphQL",
-      "Authentication & Authorization",
-      "Serverless Functions"
+      "Authentication & Authorization"
     ]
   },
   {
@@ -38,8 +36,7 @@ const skillsData: Skill[] = [
       "Docker",
       "CI/CD",
       "Agile Development",
-      "Jest & Testing Library",
-      "Webpack",
+      "Scrum",
       "Performance Optimization"
     ]
   }
