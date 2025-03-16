@@ -1,18 +1,17 @@
-# Welcome to your Lovable project
-
 ## Project info
+This is my personal Portfolio developed using Typescript and with the help of AI.
 
-**URL**: https://lovable.dev/projects/7bbd3eff-23cd-443f-87b7-a25d36135705
+<!-- **URL**: https://lovable.dev/projects/7bbd3eff-23cd-443f-87b7-a25d36135705 -->
 
-## How can I edit this code?
+## How can you edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+<!-- **Use Lovable**
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/7bbd3eff-23cd-443f-87b7-a25d36135705) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via Lovable will be committed automatically to this repo. -->
 
 **Use your preferred IDE**
 
@@ -61,9 +60,10 @@ This project is built with .
 - Tailwind CSS
 
 ## How can I deploy this project?
+- Used Vercel to deploy and explored multiple methods for deployment.
 
-Simply open [Lovable](https://lovable.dev/projects/7bbd3eff-23cd-443f-87b7-a25d36135705) and click on Share -> Publish.
+<!-- Simply open [Lovable](https://lovable.dev/projects/7bbd3eff-23cd-443f-87b7-a25d36135705) and click on Share -> Publish. -->
 
-## I want to use a custom domain - is that possible?
+<!-- ## I want to use a custom domain - is that possible? -->
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+<!-- We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/) -->
