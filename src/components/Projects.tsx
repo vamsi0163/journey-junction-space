@@ -19,19 +19,19 @@ const projectsData: Project[] = [
     image: "/project1.png",
     link: "git@github.com:vamsi0163/Burger-shop.git/"
   },
-  // {
-  //   id: 2,
-  //   title: "Azlea Sports-Analytics",
-  //   description: "An intuitive task management application with drag-and-drop functionality and team collaboration features.",
-  //   tags: ["React", "Redux", "Node.js", "Socket.io"],
-  //   image: "/placeholder.svg",
-  //   link: "#"
-  // },
+  {
+    id: 2,
+    title: "Health Score Calculator",
+    description: "A full-stack web application that processes wearable device health data, computes a 0–100 health score, and returns personalized recommendations.",
+    tags: ["React", "Redux", "Node.js"],
+    image: "/placeholder.svg",
+    link: "https://health-score-app-m7rc.vercel.app/"
+  },
   {
     id: 3,
     title: "news-exploratory-project",
     description: " This project is designed to provide users with a dynamic and interactive platform to explore news articles based on categories and search queries.",
-    tags: ["javascript", "vercel"],
+    tags: ["javascript", "vercel","Node.js", "Express.js","Mango DB"],
     image: "/project3.png",
     link: "https://news-exploratory-project.vercel.app/"
   }
